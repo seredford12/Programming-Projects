@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #008080;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI_Controllers.CustomerList">
+   <children>
+      <TableView fx:id="CustomerTable" layoutX="10.0" layoutY="84.0" prefHeight="454.0" prefWidth="880.0">
+        <columns>
+          <TableColumn fx:id="CustomerIDColumn" prefWidth="83.0" text="Customer ID" />
+          <TableColumn fx:id="NameColumn" prefWidth="160.0" text="Name" />
+            <TableColumn fx:id="AddressID" prefWidth="69.0" text="Address ID" />
+            <TableColumn fx:id="AddressColumn" prefWidth="175.0" text="Address" />
+            <TableColumn fx:id="SecondaryAddress" prefWidth="130.0" text="Secondary Address" />
+            <TableColumn fx:id="PostalCode" prefWidth="100.0" text="Postal Code" />
+            <TableColumn fx:id="CityID" prefWidth="49.0" text="City ID" />
+            <TableColumn fx:id="PhoneNumberColumn" prefWidth="113.0" text="Phone Number" />
+        </columns>
+      </TableView>
+      <Button fx:id="BackButton" layoutX="14.0" layoutY="30.0" mnemonicParsing="false" onAction="#Back" prefHeight="25.0" prefWidth="82.0" text="Back" />
+      <Button fx:id="AddCustomerButton" layoutX="10.0" layoutY="554.0" mnemonicParsing="false" onAction="#AddCustomer" prefWidth="150.0" text="Add Customer" />
+      <Button fx:id="UpdateCustomerButton" layoutX="375.0" layoutY="554.0" mnemonicParsing="false" onAction="#UpdateCustomer" prefWidth="150.0" text="Update Customer" />
+      <Button fx:id="DeleteCustomerButton" layoutX="736.0" layoutY="554.0" mnemonicParsing="false" onAction="#DeleteCustomer" prefWidth="150.0" text="Delete Costumer" />
+      <TextField fx:id="SearchBox" alignment="TOP_CENTER" layoutX="256.0" layoutY="30.0" onAction="#Search" prefHeight="25.0" prefWidth="388.0" promptText="Search" />
+   </children>
+</AnchorPane>

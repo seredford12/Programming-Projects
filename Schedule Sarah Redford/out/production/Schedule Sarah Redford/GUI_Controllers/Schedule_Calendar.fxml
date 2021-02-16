@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI_Controllers.ScheduleCalendar">
+   <children>
+      <SplitPane dividerPositions="0.1802403204272363" layoutX="80.0" layoutY="216.0" prefHeight="650.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" style="-fx-background-color: #788896;">
+               <children>
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#00808071" height="781.0" layoutX="7.0" layoutY="9.0" stroke="#00808093" strokeType="INSIDE" width="250.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TEAL" height="137.0" layoutX="27.0" layoutY="21.0" stroke="BLACK" strokeType="INSIDE" width="207.0" />
+                  <Label layoutX="101.0" layoutY="89.0" text="2020">
+                     <font>
+                        <Font name="Apple Chancery Italic" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="26.0" prefHeight="67.0" prefWidth="191.0" text="Schedule">
+                     <font>
+                        <Font name="Apple Chancery Italic" size="48.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#73e4e466" height="323.0" layoutX="14.0" layoutY="459.0" stroke="#74e3e36f" strokeType="INSIDE" width="237.0" />
+                  <Button fx:id="addAppointmentButton" layoutX="61.0" layoutY="485.0" mnemonicParsing="false" onAction="#AddAppointment" prefWidth="150.0" text="Add Appointment" />
+                  <Button fx:id="deleteAppointmentButton" layoutX="60.0" layoutY="653.0" mnemonicParsing="false" onAction="#deleteAppointment" prefWidth="150.0" text="Delete Appointment" />
+                  <Button fx:id="updateAppointmentButton" layoutX="61.0" layoutY="570.0" mnemonicParsing="false" onAction="#updateAppointment" prefWidth="150.0" text="Update Appointment" />
+                  <Button fx:id="customerListButton" layoutX="23.0" layoutY="727.0" mnemonicParsing="false" onAction="#customerList" prefHeight="29.0" prefWidth="220.0" style="-fx-background-color: #ffa500;" text="Customer List" textAlignment="CENTER" underline="true">
+                     <font>
+                        <Font name="Antique Olive Italic" size="14.0" />
+                     </font>
+                  </Button>
+                  <RadioButton fx:id="allAppointments" layoutX="43.0" layoutY="354.0" mnemonicParsing="false" onAction="#ToggleButtonChanged" selected="true" text="All Appointments">
+                     <font>
+                        <Font name="Bell MT Italic" size="18.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="ToggleGroup1" />
+                     </toggleGroup></RadioButton>
+                  <RadioButton fx:id="MonthlyAppointments" layoutX="43.0" layoutY="387.0" mnemonicParsing="false" onAction="#ToggleButtonChanged" text="Monthly Appointments" toggleGroup="$ToggleGroup1">
+                     <font>
+                        <Font name="Bell MT Italic" size="16.0" />
+                     </font></RadioButton>
+                  <RadioButton fx:id="WeeklyAppointments" layoutX="43.0" layoutY="420.0" mnemonicParsing="false" onAction="#ToggleButtonChanged" text="Weekly Appointments" toggleGroup="$ToggleGroup1">
+                     <font>
+                        <Font name="Bell MT Italic" size="16.0" />
+                     </font></RadioButton>
+                  <Label fx:id="monthAppointmentsLabel" layoutX="17.0" layoutY="224.0" prefHeight="69.0" prefWidth="231.0" text=" " textAlignment="CENTER">
+                     <font>
+                        <Font name="Albertus MT" size="15.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="UserCombo" layoutX="40.0" layoutY="187.0" onAction="#userCombo" prefWidth="150.0" promptText="Schedule by User" />
+                  <Label fx:id="typeLabel" layoutX="17.0" layoutY="292.0" prefHeight="44.0" prefWidth="231.0" text=" " textAlignment="CENTER">
+                     <font>
+                        <Font name="Albertus MT" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TableView fx:id="AppointmentTable" layoutX="16.0" layoutY="75.0" prefHeight="798.0" prefWidth="974.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="AppointmentIDColumn" prefWidth="100.0" text="Appointment ID" />
+                      <TableColumn fx:id="CustomerIDColumn" prefWidth="86.0" text="Customer ID" />
+                        <TableColumn fx:id="UserIDColumn" prefWidth="67.0" text="User ID" />
+                        <TableColumn fx:id="TitleColumn" prefWidth="125.0" text="Title" />
+                        <TableColumn fx:id="DescriptionColumn" prefWidth="153.0" text="Description" />
+                        <TableColumn fx:id="LocationColumn" prefWidth="119.0" text="Location" />
+                        <TableColumn fx:id="ContactColumn" minWidth="50.0" prefWidth="122.0" text="Contact" />
+                        <TableColumn fx:id="TypeColumn" prefWidth="109.0" text="Type" />
+                        <TableColumn fx:id="URLColumn" prefWidth="76.0" text="URL" />
+                        <TableColumn fx:id="StartColumn" prefWidth="132.0" text="Start Time" />
+                        <TableColumn fx:id="EndColumn" prefWidth="137.0" text="End Time" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

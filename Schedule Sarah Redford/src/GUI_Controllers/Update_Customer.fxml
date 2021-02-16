@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="615.0" prefWidth="500.0" style="-fx-background-color: #d3d3d3;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI_Controllers.UpdateCustomer">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00808072" height="78.0" layoutX="102.0" layoutY="21.0" stroke="BLACK" strokeType="INSIDE" width="296.0" />
+      <Label layoutX="164.0" layoutY="38.0" text="Update Customer">
+         <font>
+            <Font name="Apple Chancery Italic" size="24.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#0080801e" height="450.0" layoutX="26.0" layoutY="113.0" stroke="#00808039" strokeType="INSIDE" width="449.0" />
+      <Button fx:id="BackButton" layoutX="375.0" layoutY="576.0" mnemonicParsing="false" onAction="#Back" prefWidth="100.0" text="Back" />
+      <Text layoutX="62.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer ID:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="62.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer Name:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="62.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="62.0" layoutY="528.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number:" />
+      <TextArea fx:id="AddressTextField" layoutX="201.0" layoutY="268.0" prefHeight="19.0" prefWidth="237.0" />
+      <TextField fx:id="CustomerIDTextField" disable="true" editable="false" layoutX="201.0" layoutY="146.0" prefHeight="25.0" prefWidth="237.0" promptText="Customer ID" />
+      <TextField fx:id="CustomerNameTextField" layoutX="201.0" layoutY="189.0" prefWidth="237.0" />
+      <TextField fx:id="PhoneNumberTextField" layoutX="201.0" layoutY="511.0" prefWidth="237.0" />
+      <Button fx:id="SaveButton" layoutX="26.0" layoutY="576.0" mnemonicParsing="false" onAction="#Save" prefWidth="100.0" text="Save" />
+      <Text layoutX="62.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City:" />
+      <Text layoutX="62.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address ID:" />
+      <TextField fx:id="AddressIDTextField" disable="true" layoutX="201.0" layoutY="229.0" prefWidth="237.0" promptText="Address ID" />
+      <Text layoutX="62.0" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Postal Code:" />
+      <TextField fx:id="PostalCodeTextField" layoutX="201.0" layoutY="386.0" prefWidth="237.0" />
+      <Label fx:id="ActiveLabel" layoutX="398.0" layoutY="250.0" text=" " />
+      <Text layoutX="62.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Second Address:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="AddressTextField1" layoutX="201.0" layoutY="319.0" prefHeight="19.0" prefWidth="237.0" />
+      <Label fx:id="ChangeCity" layoutX="398.0" layoutY="457.0" text=" " />
+      <ComboBox fx:id="CityCombo" layoutX="201.0" layoutY="441.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

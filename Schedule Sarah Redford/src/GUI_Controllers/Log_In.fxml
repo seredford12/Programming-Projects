@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #008080;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI_Controllers.LogIn">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#788896ce" height="376.0" layoutX="12.0" layoutY="12.0" stroke="#656060" strokeType="INSIDE" width="575.0" />
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#c2c3c48b" height="337.0" layoutX="34.0" layoutY="31.0" stroke="#00000004" strokeType="INSIDE" width="534.0" />
+      <Label fx:id="WelcomeLabel" layoutX="216.0" layoutY="42.0" text="Welcome">
+         <font>
+            <Font name="Apple Chancery Italic" size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="username" layoutX="86.0" layoutY="175.0" text="Username: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="password" layoutX="88.0" layoutY="226.0" text="Password: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameTextBox" layoutX="200.0" layoutY="172.0" prefHeight="25.0" prefWidth="226.0" />
+      <TextField fx:id="passwordTextBox" layoutX="200.0" layoutY="223.0" prefHeight="25.0" prefWidth="226.0" />
+      <Button fx:id="LogInButton" layoutX="216.0" layoutY="310.0" mnemonicParsing="false" onAction="#LogIn" prefWidth="80.0" text="Log In" />
+      <Button fx:id="exitButton" layoutX="333.0" layoutY="310.0" mnemonicParsing="false" onAction="#Cancel" prefWidth="80.0" text="Exit" />
+   </children>
+</AnchorPane>

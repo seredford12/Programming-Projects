@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="615.0" prefWidth="500.0" style="-fx-background-color: #d3d3d3;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI_Controllers.UpdateAppointment">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00808072" height="78.0" layoutX="102.0" layoutY="21.0" stroke="BLACK" strokeType="INSIDE" width="296.0" />
+      <Label layoutX="147.0" layoutY="38.0" text="Update Appointment">
+         <font>
+            <Font name="Apple Chancery Italic" size="24.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#0080801e" height="450.0" layoutX="26.0" layoutY="113.0" stroke="#00808039" strokeType="INSIDE" width="449.0" />
+      <Button fx:id="BackButton" layoutX="375.0" layoutY="576.0" mnemonicParsing="false" onAction="#Back" prefWidth="100.0" text="Back" />
+      <Text layoutX="62.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Appointment ID:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="62.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer ID:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="62.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="62.0" layoutY="547.0" strokeType="OUTSIDE" strokeWidth="0.0" text="End Time:" />
+      <TextField fx:id="AppointmentID" disable="true" editable="false" layoutX="201.0" layoutY="134.0" prefHeight="25.0" prefWidth="237.0" promptText="Appointment ID" />
+      <Button fx:id="SaveButton" layoutX="26.0" layoutY="576.0" mnemonicParsing="false" onAction="#Save" prefWidth="100.0" text="Save" />
+      <Text layoutX="62.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type:" />
+      <Text layoutX="62.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User ID:" />
+      <TextField fx:id="UserID" disable="true" layoutX="201.0" layoutY="202.0" prefWidth="237.0" promptText="User ID" />
+      <Text layoutX="62.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title:" />
+      <Text layoutX="62.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact:" />
+      <TextField fx:id="Contact" layoutX="201.0" layoutY="347.0" prefWidth="237.0" promptText="Contact" />
+      <Label fx:id="ActiveLabel" layoutX="398.0" layoutY="250.0" text=" " />
+      <Label fx:id="CityLabel" layoutX="384.0" layoutY="422.0" text=" " />
+      <Text layoutX="62.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Location:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Title" layoutX="201.0" layoutY="237.0" prefWidth="237.0" promptText="Title" />
+      <TextField fx:id="Description" layoutX="201.0" layoutY="273.0" prefWidth="237.0" promptText="Description" />
+      <TextField fx:id="Location" layoutX="201.0" layoutY="308.0" prefWidth="237.0" promptText="Location" />
+      <Text layoutX="62.0" layoutY="510.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start Time:" />
+      <TextField fx:id="URL" layoutX="201.0" layoutY="418.0" prefWidth="237.0" promptText="url" />
+      <Text layoutX="62.0" layoutY="438.0" strokeType="OUTSIDE" strokeWidth="0.0" text="URL:" />
+      <ComboBox fx:id="StartTimeCombo" layoutX="201.0" layoutY="493.0" prefWidth="150.0" />
+      <ComboBox fx:id="EndTimeCombo" layoutX="201.0" layoutY="530.0" prefWidth="150.0" />
+      <DatePicker fx:id="DatePicker" layoutX="200.0" layoutY="453.0" />
+      <Text layoutX="63.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date:" />
+      <ComboBox fx:id="CIDCombo" layoutX="201.0" layoutY="167.0" prefWidth="150.0" />
+      <ComboBox fx:id="TypeCombo" layoutX="201.0" layoutY="384.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

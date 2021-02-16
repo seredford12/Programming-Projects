@@ -1,0 +1,135 @@
+User id: 2 has logged in at 13:40:30.397
+User id: 3 has logged in at 13:41:05.156
+User id: 3 has logged in at 13:42:42.748
+User id: 2 has logged in at 14:20:07.728
+User id: 2 has logged in at 14:22:13.490
+User id: 2 has logged in at 14:23:00.439
+User id: 3 has logged in at 14:27:30.566
+User id: 3 has logged in at 14:29:57.718
+User id: 3 has logged in at 14:31:17.164
+User id: 2 has logged in at 14:49:42.887
+User id: 2 has logged in at 16:22:57.094
+User id: 2 has logged in at 16:24:23.841
+User ID: 2 has created an appointment at 16:24:45.355
+User ID: 2 has created an appointment at 16:24:46.050
+User id: 2 has logged in at 16:29:59.242
+User ID: 2 has created an appointment at 16:30:54.885
+User id: 2 has logged in at 16:39:45.270
+User ID: 2 has created an appointment at 16:40:07.826
+User id: 2 has logged in at 16:41:38.178
+User ID: 2 has created an appointment at 16:42:49.999
+User id: 2 has logged in at 16:45:25.384
+User id: 2 has logged in at 16:48:40.939
+User id: 2 has logged in at 16:51:47.494
+User id: 1 has logged in at 05:34:15.896
+User id: 1 has logged in at 17:07:24.774
+User id: 1 has logged in at 19:11:51.398
+User id: 1 has logged in at 19:31:53.328
+User ID: 1 has updated an appointment at 19:32:09.029
+User id: 3 has logged in at 19:36:28.101
+User id: 1 has logged in at 19:42:21.137
+User ID: 1 has created an appointment at 19:43:58.913
+User ID: 1 has created an appointment at 19:45:13.453
+User ID: 1 has updated an appointment at 19:47:40.583
+User ID: 1 has created an appointment at 19:48:32.519
+User id: 3 has logged in at 19:50:44.462
+User ID: 3 has created an appointment at 19:51:07.472
+User id: 3 has logged in at 19:53:59.233
+User ID: 3 has updated an appointment at 19:54:19.429
+User id: 2 has logged in at 19:58:17.585
+User id: 3 has logged in at 19:59:43.761
+User id: 2 has logged in at 20:01:22.879
+User id: 3 has logged in at 20:10:04.331
+User id: 3 has logged in at 20:11:50.541
+User ID: 3 has updated an appointment at 20:12:05.487
+User ID: 3 has updated an appointment at 20:12:27.519
+User id: 3 has logged in at 20:15:24.726
+User ID: 3 has updated an appointment at 20:15:39.097
+User ID: 3 has updated an appointment at 20:15:57.232
+User id: 3 has logged in at 20:17:41.467
+User ID: 3 has updated an appointment at 20:18:10.729
+User id: 2 has logged in at 20:44:03.551
+User id: 2 has logged in at 20:50:13.128
+User ID: 2 has created an appointment at 20:50:35.105
+User id: 3 has logged in at 21:47:49.430
+User id: 3 has logged in at 21:51:14.999
+User ID: 3 has created an appointment at 21:51:32.504
+User id: 3 has logged in at 21:57:24.577
+User id: 1 has logged in at 09:25:55.288
+User id: 3 has logged in at 09:31:27.491
+User id: 2 has logged in at 09:35:56.690
+User ID: 2 has created an appointment at 09:37:43.673
+User id: 2 has logged in at 09:39:23.170
+User ID: 2 has created an appointment at 09:39:34.218
+User ID: 2 has updated an appointment at 09:40:21.735
+User ID: 2 has updated an appointment at 09:41:45.470
+User id: 2 has logged in at 05:43:02.500
+User ID: 2 has updated an appointment at 05:43:35.532
+User id: 2 has logged in at 09:46:03.583
+User id: 3 has logged in at 09:49:14.477
+User ID: 3 has deleted an appointment at 09:49:19.495
+User id: 3 has logged in at 17:20:39.953
+User ID: 3 has updated an appointment at 17:21:11.806
+User ID: 3 has created an appointment at 17:23:12.560
+User id: 2 has logged in at 17:24:46.451
+User ID: 2 has created an appointment at 17:25:58.841
+User id: 3 has logged in at 17:28:49.209
+User id: 3 has logged in at 17:30:05.064
+User id: 3 has logged in at 17:32:25.367
+User id: 3 has logged in at 17:34:57.213
+User id: 3 has logged in at 17:44:15.697
+User ID: 3 has created an appointment at 17:45:43.027
+User ID: 3 has deleted an appointment at 17:46:42.681
+User ID: 3 has deleted an appointment at 17:46:45.419
+User ID: 3 has deleted an appointment at 17:46:48.141
+User ID: 3 has deleted an appointment at 17:46:50.658
+User ID: 3 has deleted an appointment at 17:46:53.259
+User ID: 3 has deleted an appointment at 17:46:55.880
+User ID: 3 has deleted an appointment at 17:46:58.665
+User ID: 3 has deleted an appointment at 17:47:01.237
+User ID: 3 has deleted an appointment at 17:47:05.153
+User ID: 3 has created an appointment at 17:48:38.637
+User ID: 3 has created an appointment at 17:50:53.688
+User id: 1 has logged in at 17:51:34.057
+User ID: 1 has created an appointment at 17:53:04.873
+User ID: 1 has created an appointment at 17:54:48.019
+User ID: 1 has created an appointment at 17:56:52.098
+User id: 2 has logged in at 17:57:16.780
+User ID: 2 has created an appointment at 17:59:52.594
+User ID: 2 has created an appointment at 18:01:15.282
+User ID: 2 has updated an appointment at 18:01:57.049
+User id: 3 has logged in at 17:09:07.829
+User id: 2 has logged in at 08:52:24.538
+User ID: 2 has updated an appointment at 08:53:11.592
+User ID: 2 has updated an appointment at 08:54:14.911
+User id: 3 has logged in at 08:55:19.985
+User ID: 3 has updated an appointment at 08:55:43.329
+User id: 3 has logged in at 09:04:10.637
+User id: 3 has logged in at 09:10:42.273
+User ID: 3 has updated an appointment at 09:10:48.264
+User ID: 3 has updated an appointment at 09:11:20.741
+User id: 3 has logged in at 10:03:04.213
+User id: 3 has logged in at 10:04:38.036
+User id: 3 has logged in at 10:10:55.100
+User ID: 3 has updated an appointment at 10:11:10.759
+User ID: 3 has updated an appointment at 10:11:17.857
+User ID: 3 has updated an appointment at 10:12:01.102
+User id: 3 has logged in at 10:13:25.697
+User id: 3 has logged in at 10:14:23.948
+User id: 3 has logged in at 10:48:31.015
+User id: 3 has logged in at 10:49:17.046
+User id: 3 has logged in at 10:52:08.617
+User id: 3 has logged in at 11:39:57.213
+User id: 3 has logged in at 11:43:07.271
+User id: 3 has logged in at 11:48:53.717
+User id: 3 has logged in at 11:49:58.627
+User id: 3 has logged in at 11:54:12.907
+User ID: 3 has updated an appointment at 12:02:51.674
+User ID: 3 has updated an appointment at 12:03:06.043
+User id: 3 has logged in at 12:13:46.732
+User id: 3 has logged in at 12:14:45.752
+User id: 3 has logged in at 12:17:38.311
+User ID: 3 has created an appointment at 12:19:21.354
+User ID: 3 has updated an appointment at 12:20:05.944
+User ID: 3 has updated an appointment at 12:20:37.908
+User ID: 3 has updated an appointment at 12:21:11.144
