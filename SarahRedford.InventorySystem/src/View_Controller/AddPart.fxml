@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="425.0" style="-fx-background-color: #D3D3D3;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View_Controller.AddPart">
+   <children>
+      <RadioButton fx:id="InhouseRadioButton" layoutX="157.0" layoutY="39.0" mnemonicParsing="false" onAction="#RadioButtonChanged" selected="true" text="In-House">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="ToggleGroup1" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="OutsourcedRadioButton" layoutX="280.0" layoutY="39.0" mnemonicParsing="false" onAction="#RadioButtonChanged" text="Outsourced" toggleGroup="$ToggleGroup1">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></RadioButton>
+      <VBox layoutX="78.0" layoutY="96.0" spacing="27.0">
+         <children>
+            <HBox spacing="75.0">
+               <children>
+                  <Label fx:id="Label1" text="ID" />
+                  <TextField fx:id="IDField" disable="true" promptText="Auto Gen - Disabled">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox spacing="55.0">
+               <children>
+                  <Label fx:id="Label2" text="Name" />
+                  <TextField fx:id="NameField" promptText="Part Name">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox spacing="58.0">
+               <children>
+                  <Label fx:id="Label3" text="Stock" />
+                  <TextField fx:id="InvField" promptText="Inv">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox spacing="61.0">
+               <children>
+                  <Label fx:id="Label4" text="Price" />
+                  <TextField fx:id="CostField" promptText="Price/Cost">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox spacing="30.0">
+               <children>
+                  <Label fx:id="Label5" text="Max" />
+                  <TextField fx:id="MaxField" prefWidth="70.0" promptText="Max">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </TextField>
+                  <Label text="Min" />
+                  <TextField fx:id="MinField" prefWidth="70.0" promptText="Min">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox spacing="27.0">
+               <children>
+                  <Label fx:id="AddPartLabel2" text="Machine ID" />
+                  <TextField fx:id="LabelTextBox" onAction="#RadioButtonChanged">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox layoutX="208.0" layoutY="408.0" spacing="20.0">
+         <children>
+            <Button fx:id="SaveAddPartButton" mnemonicParsing="false" onMouseClicked="#SaveAddPart" prefWidth="80.0" text="Save" />
+            <Button fx:id="CancelAddPartButton" mnemonicParsing="false" onMouseClicked="#CancelAddPart" prefWidth="80.0" text="Cancel" />
+         </children>
+      </HBox>
+      <Label layoutX="30.0" layoutY="39.0" text="Add Part" textFill="#3356d4">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

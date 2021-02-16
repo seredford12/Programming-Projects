@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="550.0" prefWidth="750.0" style="-fx-background-color: #D3D3D3;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View_Controller.AddProduct">
+   <children>
+      <Rectangle arcHeight="12.0" arcWidth="12.0" fill="LIGHTGRAY" height="524.0" layoutX="14.0" layoutY="13.0" stroke="#a6a1a17a" strokeType="INSIDE" width="721.0" />
+      <Label layoutX="51.0" layoutY="43.0" text="Add Product" textFill="#3356d4">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="IDTextField" disable="true" layoutX="83.0" layoutY="122.0" promptText="Auto Gen - Disabled">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="NameTextField" layoutX="83.0" layoutY="162.0" promptText="Product Name">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="StockTextField" layoutX="83.0" layoutY="200.0" prefWidth="60.0" promptText="Inv">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="PriceTextField" layoutX="83.0" layoutY="241.0" prefWidth="60.0" promptText="Price">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="MaxTextField" layoutX="83.0" layoutY="285.0" prefWidth="60.0" promptText="Max">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="MinTextField" layoutX="201.0" layoutY="285.0" prefWidth="60.0" promptText="Min">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <TableView fx:id="AddProductTable1" layoutX="287.0" layoutY="74.0" prefHeight="150.0" prefWidth="433.0">
+        <columns>
+          <TableColumn fx:id="IDColumn1" prefWidth="92.20001220703125" text="Part ID" />
+          <TableColumn fx:id="NameColumn1" prefWidth="150.0" text="Part Name" />
+            <TableColumn fx:id="StockColumn1" prefWidth="84.5999755859375" text="Stock" />
+            <TableColumn fx:id="PriceColumn1" prefWidth="103.0" text="Price" />
+        </columns>
+      </TableView>
+      <TableView fx:id="AddProductTable2" layoutX="287.0" layoutY="285.0" prefHeight="150.0" prefWidth="433.0">
+        <columns>
+          <TableColumn fx:id="IDColumn2" prefWidth="92.0" text="Part ID" />
+          <TableColumn fx:id="NameColumn2" prefWidth="150.0" text="Part Name" />
+            <TableColumn fx:id="StockColumn2" prefWidth="84.0" text="Stock" />
+            <TableColumn fx:id="PriceColumn2" prefWidth="103.0" text="Price" />
+        </columns>
+      </TableView>
+      <Button fx:id="SearchAddProductButton" layoutX="383.0" layoutY="40.0" mnemonicParsing="false" onMouseClicked="#SearchAddProduct" prefWidth="80.0" text="Search" />
+      <TextField fx:id="AddProductSearchBox" layoutX="471.0" layoutY="40.0" />
+      <Button fx:id="AddAddProductButton" layoutX="335.0" layoutY="237.0" mnemonicParsing="false" onMouseClicked="#AddAddProduct" prefWidth="80.0" text="Add" />
+      <Button fx:id="DeleteAddProductButton" layoutX="335.0" layoutY="447.0" mnemonicParsing="false" onMouseClicked="#DeleteAddProduct" prefWidth="80.0" text="Delete" />
+      <Button fx:id="CancelAddProductButton" layoutX="620.0" layoutY="494.0" mnemonicParsing="false" onMouseClicked="#CancelAddProduct" prefWidth="80.0" text="Cancel" />
+      <Button fx:id="SaveAddProductButton" layoutX="523.0" layoutY="494.0" mnemonicParsing="false" onMouseClicked="#SaveAddProduct" prefWidth="80.0" text="Save" />
+      <Label layoutX="44.0" layoutY="126.0" text="ID" />
+      <Label layoutX="35.0" layoutY="166.0" text="Name" />
+      <Label layoutX="35.0" layoutY="204.0" text="Stock" />
+      <Label layoutX="37.0" layoutY="245.0" text="Price" />
+      <Label layoutX="39.0" layoutY="289.0" text="Max" />
+      <Label layoutX="165.0" layoutY="289.0" text="Min" />
+   </children>
+</AnchorPane>

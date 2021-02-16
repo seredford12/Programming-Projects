@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="550.0" prefWidth="750.0" style="-fx-background-color: #d3d3d3;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View_Controller.ModifyProduct">
+   <children>
+      <Group layoutX="13.0" layoutY="13.0">
+         <children>
+            <Rectangle arcHeight="12.0" arcWidth="12.0" fill="LIGHTGRAY" height="526.0" stroke="#a6a1a1" strokeType="INSIDE" width="724.0" />
+            <Label layoutX="49.0" layoutY="36.0" text="Modify Product" textFill="#3356d4">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="IDTextField" layoutX="78.0" layoutY="113.0" />
+            <TextField fx:id="NameTextField" layoutX="78.0" layoutY="161.0" />
+            <TextField fx:id="InvTextField" layoutX="78.0" layoutY="205.0" prefWidth="60.0" />
+            <TextField fx:id="PriceTextField" layoutX="78.0" layoutY="250.0" prefWidth="60.0" />
+            <TextField fx:id="MaxTextField" layoutX="78.0" layoutY="294.0" prefWidth="60.0" />
+            <TextField fx:id="MinTextField" layoutX="197.0" layoutY="295.0" prefWidth="60.0" />
+            <TableView fx:id="ProductTable1" layoutX="280.0" layoutY="78.0" prefHeight="150.0" prefWidth="433.0">
+              <columns>
+                <TableColumn fx:id="IDColumn1" prefWidth="108.25" text="Part ID" />
+                <TableColumn fx:id="NameColumn1" prefWidth="108.25" text="Part Name" />
+                  <TableColumn fx:id="StockColumn1" prefWidth="108.25" text="In Stock" />
+                  <TableColumn fx:id="PriceColumn1" prefWidth="108.25" text="Price" />
+              </columns>
+            </TableView>
+            <TableView fx:id="ProductTable2" layoutX="280.0" layoutY="288.0" prefHeight="150.0" prefWidth="433.0">
+              <columns>
+                <TableColumn fx:id="IDColumn2" prefWidth="108.25" text="Part ID" />
+                <TableColumn fx:id="NameColumn2" prefWidth="108.25" text="Part Name" />
+                  <TableColumn fx:id="StockColumn2" prefWidth="108.25" text="In Stock" />
+                  <TableColumn fx:id="PriceColumn2" prefWidth="108.25" text="Price" />
+              </columns>
+            </TableView>
+            <Button fx:id="SearchModifyProductButton" layoutX="356.0" layoutY="36.0" mnemonicParsing="false" onMouseClicked="#SearchModifyProduct" prefWidth="80.0" text="Search" />
+            <Button fx:id="AddModifyProductButton" layoutX="297.0" layoutY="235.0" mnemonicParsing="false" onMouseClicked="#AddModifyProduct" prefWidth="80.0" text="Add" />
+            <Button fx:id="DeleteModifyProductButton" layoutX="297.0" layoutY="447.0" mnemonicParsing="false" onMouseClicked="#DeleteModifyProduct" prefWidth="80.0" text="Delete" />
+            <Button fx:id="CancelModifyProductButton" layoutX="605.0" layoutY="490.0" mnemonicParsing="false" onMouseClicked="#CancelModifyProduct" prefWidth="80.0" text="Cancel" />
+            <Button fx:id="SaveModifyProductButton" layoutX="504.0" layoutY="490.0" mnemonicParsing="false" onMouseClicked="#SaveModifyProduct" prefWidth="80.0" text="Save" />
+            <TextField fx:id="ModifyProductSearchBox" layoutX="444.0" layoutY="36.0" />
+            <Label fx:id="IDLabel" layoutX="28.0" layoutY="117.0" text="ID" />
+            <Label fx:id="NameLabel" layoutX="28.0" layoutY="165.0" text="Name" />
+            <Label fx:id="InvLabel" layoutX="28.0" layoutY="209.0" text="Stock" />
+            <Label fx:id="PriceLabel" layoutX="28.0" layoutY="252.0" text="Price" />
+            <Label fx:id="MaxLabel" layoutX="28.0" layoutY="298.0" text="Max" />
+            <Label fx:id="MinLabel" layoutX="159.0" layoutY="297.0" text="Min" />
+         </children>
+      </Group>
+   </children>
+</AnchorPane>

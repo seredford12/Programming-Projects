@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="450.0" prefWidth="425.0" style="-fx-background-color: #D3D3D3;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View_Controller.ModifyPart">
+   <children>
+      <Label layoutX="34.0" layoutY="38.0" text="Modify Part" textFill="#3356d4">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <RadioButton fx:id="InhouseRadioButton" layoutX="169.0" layoutY="40.0" mnemonicParsing="false" onAction="#RadioButtonChanged" text="In-House">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="ToggleGroup2" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="OutsourcedRadioButton" layoutX="294.0" layoutY="40.0" mnemonicParsing="false" onAction="#RadioButtonChanged" text="Outsourced" toggleGroup="$ToggleGroup2">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </RadioButton>
+      <VBox layoutX="80.0" layoutY="86.0" spacing="27.0">
+         <children>
+            <HBox spacing="75.0">
+               <children>
+                  <Label text="ID" />
+                  <TextField fx:id="IDTextField" disable="true">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font></TextField>
+               </children>
+            </HBox>
+            <HBox spacing="55.0">
+               <children>
+                  <Label text="Name" />
+                  <TextField fx:id="NameTextField">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font></TextField>
+               </children>
+            </HBox>
+            <HBox spacing="58.0">
+               <children>
+                  <Label text="Stock" />
+                  <TextField fx:id="StockTextField" />
+               </children>
+            </HBox>
+            <HBox spacing="62.0">
+               <children>
+                  <Label text="Price" />
+                  <TextField fx:id="PriceTextField" />
+               </children>
+            </HBox>
+            <HBox spacing="30.0">
+               <children>
+                  <Label text="Max" />
+                  <TextField fx:id="MaxTextField" prefWidth="70.0" />
+                  <Label text="Min" />
+                  <TextField fx:id="MinTextField" prefWidth="70.0" />
+               </children>
+            </HBox>
+            <HBox spacing="26.0">
+               <children>
+                  <Label fx:id="ModifyPartLabel2" text="Machine ID" />
+                  <TextField fx:id="LabelTextBox" onAction="#RadioButtonChanged">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font></TextField>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox layoutX="222.0" layoutY="405.0" spacing="20.0">
+         <children>
+            <Button fx:id="SaveModifyPartButton" mnemonicParsing="false" onMouseClicked="#SaveModifyPart" prefWidth="80.0" text="Save" />
+            <Button fx:id="CancelModifyPartButton" mnemonicParsing="false" onMouseClicked="#CancelModifyPart" prefWidth="80.0" text="Cancel" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
